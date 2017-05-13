@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Ex7 Client</string>
+	<string name="hello_world">This app demonstrates the call to other Activities in other applications using the Intent object</string>
+	<string name="action_settings">Settings</string>
+
+</resources>

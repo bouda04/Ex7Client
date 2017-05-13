@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.example.ex7.client.MainActivity" >
+
+	<TextView
+		android:id="@+id/intro"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/hello_world" />
+
+	<LinearLayout
+		android:id="@+id/callPhone"
+		android:layout_below="@id/intro"
+		android:layout_marginTop="30dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		
+		<EditText
+		android:id="@+id/phone"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+		
+		<Button
+		android:id="@+id/call"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="call" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/surfWeb"
+		android:layout_below="@id/callPhone"
+		android:layout_marginTop="30dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		
+		<EditText
+		android:id="@+id/url"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+		
+		<Button
+		android:id="@+id/surf"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="surf" />
+	</LinearLayout>
+		<LinearLayout
+		android:id="@+id/sendEmail"
+		android:layout_below="@id/surfWeb"
+		android:layout_marginTop="30dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		
+		<EditText
+		android:id="@+id/email"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+		
+		<Button
+		android:id="@+id/send"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="eMail" />
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+
+</LinearLayout>
+		<LinearLayout
+		android:id="@+id/sendContact"
+		android:layout_below="@id/sendEmail"
+		android:layout_marginTop="30dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+		
+		<EditText
+		android:id="@+id/contact"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content" />
+		
+		<Button
+		android:id="@+id/register"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="register" />
+	</LinearLayout>
+				
+	
+</RelativeLayout>

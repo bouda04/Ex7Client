@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Temp\Ex7Client\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="C:\Temp\Ex7Client\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.0_c7cb7ce43429e60378a6e1d9542639dc3bb03a3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Temp\Ex7Client\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.0\jars\libs\internal_impl-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="C:\Temp\Ex7Client\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.0_321e36d16388c4ee540bc7bcbcfd8d5cc00046b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\bouda04\android-sdks\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Temp\Ex7Client\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_b15e256fe130fdf6daf1aa6fb71de3e5deb200dd.jar" />
+    </item>
+
+</items>
